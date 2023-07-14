@@ -27,7 +27,8 @@ responder -I eth0 -v
 # since there is no "unknown-folder" located on this domain, the machine will send a multicast request to all devices on the LAN.
 ```
 #### Step 3: Save hash to .txt file
-![hash](https://github.com/S-Hill256/LLMNR-Poisoning-Attack/assets/138057919/696c32f1-2bb4-4f00-b98c-1f7fc84fc079)
+![hash - Copy](https://github.com/S-Hill256/LLMNR-Poisoning-Attack/assets/138057919/32943fb9-3391-4f00-b2f0-a8058779f30c)
+
 - Highlight and copy the entire hash starting at "mscott::MYDOMAIN:
   - Open new terminal tab.
     -   Run the follwoing command.
