@@ -3,13 +3,17 @@
 
 # Getting Started
 
-|  __Prerequisites:__  |                                                                                      |
-| :-------- | :------------------------------------------------------------------------------------------------ |
-| | Machine running Kali Linux                                                                                |
-| |          Windows domain controller   |
-| |          Windows client connected to the domain controller   |
-| |          Connection to the LAN of the Windows machines   |
-
+### To install Pi-hole on an Ubuntu Server machine, you need to ensure that you meet the following prerequisites: 
+- Machine running Kali Linux.
+  - Connection to the LAN of the Windows machines
+- Windows domain controller
+  - Windows client connected to the domain controller
+- Up-to-date system: It's always recommended to have an updated Kali system. Run the following commands to update your system:
+```sh
+sudo apt update
+sudo apt upgrade
+# system update/upgrade commands
+  ```
 # Obtaining password hash
 
 #### Step 1: Responder
